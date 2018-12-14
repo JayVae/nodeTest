@@ -7,3 +7,9 @@ node demo.js
 感觉步骤和hexo差不多！！
 
 4. 在命令行中vim app.js 即新建了一个js文件。
+
+5. 在mysqltest中，一个js中要调用另一个js文件的函数中，需要在另一个函数中将对应的函数暴露出来。
+module.exports = {
+ showAll,
+ add
+}
