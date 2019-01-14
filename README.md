@@ -17,3 +17,5 @@ module.exports = {
 6. npm一般在哪里安装，在项目下
 
 7. http-server用来启动一个服务器，需要用http方式访问哪个文件夹下的内容就在哪个文件夹下运行http-server即可。
+指定端口命令：
+http-server -p 8088
